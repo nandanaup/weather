@@ -65,12 +65,7 @@ const App = () => {
   };
 
   return (
-    <div
-      className="flex justify-center items-center min-h-screen bg-cover bg-center overflow-hidden"
-      style={{
-        backgroundImage: "url('cliiiii.jpg')",
-      }}
-    >
+    <div className="flex justify-center bg-[url('/src/assets/bgImage.jpg')] items-center min-h-screen bg-cover bg-center overflow-hidden">
       <div className="container relative w-[400px] bg-black bg-opacity-10 backdrop-blur-lg border-2 border-white border-opacity-20 rounded-lg p-5 text-white transition-all duration-600 ease-in-out">
         <div className="search-box relative w-full h-[55px] flex items-center mb-4">
           <i className="bx bxs-map absolute left-2 text-2xl"></i>
